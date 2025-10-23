@@ -1,0 +1,40 @@
+﻿trial,stdSide,cmpPx,response,correct,rtMs,lowPx,midPx,highPx,comment
+1,Left,4,Left,True,2078,-1,4,0,intro
+2,Left,8,Left,True,325,-1,8,0,intro
+3,Right,16,Right,True,168,-1,16,0,intro
+4,Right,16,Left,False,149,-1,16,0,stair baseStep~128px
+5,Right,4,Right,True,166,-1,4,0,stair baseStep~128px
+6,Left,4,Left,True,124,-1,4,0,stair baseStep~128px
+7,Left,68,Left,True,183,-1,68,1,stair baseStep~64px
+8,Left,68,Left,True,158,-1,68,1,stair baseStep~64px
+9,Right,100,Right,True,116,-1,100,1,stair baseStep~64px
+10,Right,100,Right,True,121,-1,100,1,stair baseStep~64px
+11,Right,132,Right,True,62,-1,132,1,stair baseStep~64px
+12,Left,132,Right,False,136,-1,132,1,stair baseStep~64px
+13,Right,4,Right,True,100,-1,4,2,stair baseStep~32px
+14,Right,4,Right,True,97,-1,4,2,stair baseStep~32px
+15,Right,20,Right,True,120,-1,20,3,stair baseStep~16px
+16,Right,20,Right,True,91,-1,20,3,stair baseStep~16px
+17,Right,28,Left,False,117,-1,28,3,stair baseStep~16px
+18,Right,4,Left,False,140,-1,4,4,stair baseStep~8px
+19,Right,4,Left,False,105,-1,4,4,stair baseStep~8px
+20,Left,4,Right,False,83,-1,4,4,stair baseStep~8px
+21,Left,4,Right,False,134,-1,4,4,stair baseStep~8px
+22,Right,4,Left,False,45,-1,4,4,stair baseStep~8px
+23,Right,4,Right,True,63,-1,4,4,stair baseStep~8px
+24,Right,4,Left,False,95,-1,4,4,stair baseStep~8px
+25,Right,4,Right,True,71,-1,4,4,stair baseStep~8px
+26,Right,4,Left,False,54,-1,4,4,stair baseStep~8px
+27,Right,4,Right,True,53,-1,4,4,stair baseStep~8px
+28,Right,4,Left,False,71,-1,4,4,stair baseStep~8px
+29,Left,4,Right,False,346,-1,4,4,stair baseStep~8px
+30,Left,4,Left,True,468,-1,4,4,stair baseStep~8px
+31,Left,4,Right,False,273,-1,4,4,stair baseStep~8px
+32,Left,4,Right,False,334,-1,4,4,stair baseStep~8px
+33,Right,4,Right,True,514,-1,4,4,stair baseStep~8px
+34,Left,4,Right,False,433,-1,4,4,stair baseStep~8px
+35,Right,4,Right,True,297,-1,4,4,stair baseStep~8px
+36,Left,4,Right,False,276,-1,4,4,stair baseStep~8px
+37,Left,4,Left,True,532,-1,4,4,stair baseStep~8px
+38,Left,4,Left,True,373,-1,4,4,stair baseStep~8px
+,,,,,,,,JND_px,8

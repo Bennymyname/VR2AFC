@@ -1,0 +1,15 @@
+﻿trial,stdSide,cmpPx,response,correct,rtMs,lowPx,midPx,highPx,comment
+1,Right,4,Right,True,4085,-1,4,0,intro
+2,Left,8,Left,True,537,-1,8,0,intro
+3,Right,16,Right,True,212,-1,16,0,intro
+4,Right,16,Left,False,315,-1,16,0,stair baseStep~128px
+5,Left,4,Right,False,660,-1,4,0,stair baseStep~128px
+6,Left,4,Left,True,423,-1,4,0,stair baseStep~128px
+7,Left,4,Left,True,409,-1,4,0,stair baseStep~128px
+8,Left,68,Right,False,512,-1,68,1,stair baseStep~64px
+9,Left,4,Left,True,408,-1,4,2,stair baseStep~32px
+10,Right,4,Right,True,494,-1,4,2,stair baseStep~32px
+11,Right,20,Left,False,392,-1,20,3,stair baseStep~16px
+12,Left,4,Left,True,465,-1,4,4,stair baseStep~8px
+13,Right,4,Right,True,510,-1,4,4,stair baseStep~8px
+,,,,,,,,JND_px,8

@@ -92,6 +92,21 @@ public class TwoAFCManager : MonoBehaviour
     public string resultsFolderName = "2AFC results";
     public bool writeInAssetsWhenInEditor = true;
 
+    // ======== ADDED: Audio feedback (keeps your label, just adds sound) ========
+    [Header("Audio Feedback (Added)")]
+    [SerializeField] private AudioSource audioSource;          // created at runtime if null
+    [SerializeField] private bool useSynthPlaceholders = true; // true = use SoundSynth ding/noise
+    [SerializeField] private AudioClip correctClipOverride;    // optional user clip
+    [SerializeField] private AudioClip wrongClipOverride;      // optional user clip
+    private AudioClip correctClip;
+    private AudioClip wrongClip;
+
+    // ======== ADDED: Inter-trial grey flash (Screen Space - Overlay) ===========
+    [Header("Inter-Trial Grey Flash (Added)")]
+    public Image flashPanel;                 // assign a full-screen grey Image
+    public bool flashBetweenTrials = true;
+    public float flashDuration = 0.9f;
+
     // ---------- internals ----------
     private Dictionary<int, Texture2D> texByPx;     // all normal maps by size
     private List<int> levels;                       // 1024..4 actually present
@@ -191,6 +206,25 @@ public class TwoAFCManager : MonoBehaviour
             Debug.Log("[TwoAFC] Logging to: " + logger.FilePath);
         }
 
+        // ======== ADDED: audio init ========
+        if (audioSource == null) audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.spatialBlend = 0f; // 2D
+        if (correctClipOverride && wrongClipOverride && !useSynthPlaceholders)
+        {
+            correctClip = correctClipOverride;
+            wrongClip   = wrongClipOverride;
+        }
+        else
+        {
+            // uses your SoundSynth.cs placeholder tones
+            correctClip = SoundSynth.MakeSine(880f, 0.18f, 0.22f);
+            wrongClip   = SoundSynth.MakeNoise(0.22f, 0.18f);
+        }
+
+        // ======== ADDED: flash init (keep disabled) ========
+        if (flashPanel) flashPanel.gameObject.SetActive(false);
+
         sw = new Stopwatch();
         trial = 0;
 
@@ -207,7 +241,9 @@ public class TwoAFCManager : MonoBehaviour
             {
                 if (!texByPx.ContainsKey(px)) continue;
                 yield return RunOneTrialAt(px, "intro");
-                yield return new WaitForSeconds(itiSeconds);
+                // ORIGINAL: yield return new WaitForSeconds(itiSeconds);
+                // ADDED: unified pause to allow optional grey flash
+                yield return InterTrialPause();
             }
         }
 
@@ -227,7 +263,9 @@ public class TwoAFCManager : MonoBehaviour
             int cmpPx = levels[curIdx];
             yield return RunOneTrialAt(cmpPx, "stair");
             staircaseTrials++;
-            yield return new WaitForSeconds(itiSeconds);
+            // ORIGINAL: yield return new WaitForSeconds(itiSeconds);
+            // ADDED: unified pause to allow optional grey flash
+            yield return InterTrialPause();
         }
 
         int jndPx = levels[curIdx];
@@ -303,11 +341,17 @@ public class TwoAFCManager : MonoBehaviour
         else
         {
             Debug.Log($"[TwoAFC] Response: {resp} (correct={correct})");
-            // short feedback “You picked …”
+            // short feedback “You picked …” (kept)
             if (feedbackText)
             {
                 feedbackText.text = $"You picked {resp}";
                 StartCoroutine(ShowTemporarily(feedbackText.gameObject, feedbackSeconds));
+            }
+            // ======== ADDED: play audio feedback ========
+            if (audioSource != null)
+            {
+                if (correct) audioSource.PlayOneShot(correctClip);
+                else         audioSource.PlayOneShot(wrongClip);
             }
         }
 
@@ -626,6 +670,21 @@ public class TwoAFCManager : MonoBehaviour
         go.SetActive(true);
         yield return new WaitForSeconds(seconds);
         go.SetActive(false);
+    }
+
+    // ======== ADDED: unified inter-trial pause with optional flash ========
+    private IEnumerator InterTrialPause()
+    {
+        if (flashBetweenTrials && flashPanel != null)
+        {
+            flashPanel.gameObject.SetActive(true);       // instant ON
+            yield return new WaitForSeconds(flashDuration);
+            flashPanel.gameObject.SetActive(false);      // instant OFF
+        }
+        else
+        {
+            yield return new WaitForSeconds(itiSeconds); // original behaviour
+        }
     }
 
     private void OnNextPressed()
