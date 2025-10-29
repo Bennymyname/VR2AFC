@@ -1,0 +1,37 @@
+﻿trial,stdSide,cmpPx,response,correct,rtMs,lowPx,midPx,highPx,comment
+1,Right,4,Right,True,2455,-1,4,0,intro
+2,Left,8,Left,True,666,-1,8,0,intro
+3,Right,16,Right,True,583,-1,16,0,intro
+4,Left,16,Left,True,596,-1,16,0,stair baseStep~128px
+5,Left,16,Left,True,750,-1,16,0,stair baseStep~128px
+6,Left,144,Left,True,861,-1,144,0,stair baseStep~128px
+7,Left,144,Left,True,680,-1,144,0,stair baseStep~128px
+8,Left,272,Left,True,680,-1,272,0,stair baseStep~128px
+9,Right,272,Right,True,805,-1,272,0,stair baseStep~128px
+10,Left,400,Left,True,1042,-1,400,0,stair baseStep~128px
+11,Right,400,Right,True,1111,-1,400,0,stair baseStep~128px
+12,Right,528,Right,True,694,-1,528,0,stair baseStep~128px
+13,Left,528,Left,True,2583,-1,528,0,stair baseStep~128px
+14,Right,656,Right,True,1027,-1,656,0,stair baseStep~128px
+15,Right,656,Right,True,832,-1,656,0,stair baseStep~128px
+16,Right,784,Right,True,777,-1,784,0,stair baseStep~128px
+17,Right,784,Right,True,957,-1,784,0,stair baseStep~128px
+18,Right,912,Right,True,958,-1,912,0,stair baseStep~128px
+19,Right,912,Left,False,2293,-1,912,0,stair baseStep~128px
+20,Right,784,Right,True,9971,-1,784,1,stair baseStep~64px
+21,Right,784,Right,True,999,-1,784,1,stair baseStep~64px
+22,Left,848,Left,True,2430,-1,848,2,stair baseStep~32px
+23,Left,848,Left,True,8486,-1,848,2,stair baseStep~32px
+24,Left,880,Left,True,1291,-1,880,2,stair baseStep~32px
+25,Left,880,Right,False,903,-1,880,2,stair baseStep~32px
+26,Right,848,Right,True,929,-1,848,3,stair baseStep~16px
+27,Right,848,Right,True,874,-1,848,3,stair baseStep~16px
+28,Right,864,Right,True,1180,-1,864,4,stair baseStep~8px
+29,Left,864,Right,False,833,-1,864,4,stair baseStep~8px
+30,Right,856,Left,False,2525,-1,856,5,stair baseStep~4px
+31,Right,852,Left,False,2237,-1,852,5,stair baseStep~4px
+32,Right,848,Right,True,4931,-1,848,5,stair baseStep~4px
+33,Left,848,Right,False,4012,-1,848,5,stair baseStep~4px
+34,Left,844,Left,True,2347,-1,844,5,stair baseStep~4px
+35,Right,844,Right,True,3708,-1,844,5,stair baseStep~4px
+,,,,,,,,JND_px,848

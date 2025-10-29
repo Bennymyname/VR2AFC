@@ -11,7 +11,14 @@ import argparse
 DATASETS = {
     'bricks004': 'Bricks004_results',
     'bricks101': 'Bricks101_results', 
-    'rock062': 'Rock062_results'
+    'bricks094': 'Bricks094_results', 
+    'rocks022': 'Rocks022_results', 
+    'rock062': 'Rock062_results',
+    'rocks006': 'Rocks006_results',
+    'Fabric045': 'Fabric045_results',
+    'Fabric065': 'Fabric065_results',
+    'Fabric079': 'Fabric079_results'
+
 }
 
 def parse_filename_datetime(filename):

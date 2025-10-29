@@ -5,15 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bricks004.unity
     guid: fed7a4bc912148e4d80dd97bc2ee28aa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bricks101.unity
     guid: 57e2758947ac86440bdef1f9a8061df0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Rock062.unity
     guid: d9713f291aa65e74f89872dff24980da
+  - enabled: 1
+    path: Assets/Scenes/Fabric045.unity
+    guid: 72bc6403d1d1ba343a6bea2dd9a271e7
+  - enabled: 1
+    path: Assets/Scenes/Rocks022.unity
+    guid: 4ba6bc48b23fc5e4dbb81ac839ac9d31
+  - enabled: 1
+    path: Assets/Scenes/Fabric065.unity
+    guid: 7835cbb33c6cf4749a3e606ab60caf00
+  - enabled: 1
+    path: Assets/Scenes/Fabric079.unity
+    guid: 694619c5356127d42ab17d0d8201852c
+  - enabled: 1
+    path: Assets/Scenes/Rocks006.unity
+    guid: 8820a726a2a91214a88ca59b4b7e1321
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

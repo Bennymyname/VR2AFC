@@ -1,0 +1,37 @@
+﻿trial,stdSide,cmpPx,response,correct,rtMs,lowPx,midPx,highPx,comment
+1,Right,4,Right,True,1388,-1,4,0,intro
+2,Left,8,Left,True,610,-1,8,0,intro
+3,Left,16,Left,True,513,-1,16,0,intro
+4,Left,16,Left,True,430,-1,16,0,stair baseStep~128px
+5,Left,16,Left,True,445,-1,16,0,stair baseStep~128px
+6,Right,144,Right,True,499,-1,144,0,stair baseStep~128px
+7,Left,144,Left,True,486,-1,144,0,stair baseStep~128px
+8,Right,272,Right,True,486,-1,272,0,stair baseStep~128px
+9,Left,272,Left,True,514,-1,272,0,stair baseStep~128px
+10,Right,400,Right,True,513,-1,400,0,stair baseStep~128px
+11,Left,400,Left,True,653,-1,400,0,stair baseStep~128px
+12,Right,528,Right,True,750,-1,528,0,stair baseStep~128px
+13,Right,528,Right,True,680,-1,528,0,stair baseStep~128px
+14,Left,656,Left,True,2597,-1,656,0,stair baseStep~128px
+15,Right,656,Right,True,2638,-1,656,0,stair baseStep~128px
+16,Left,784,Left,True,1625,-1,784,0,stair baseStep~128px
+17,Left,784,Left,True,1181,-1,784,0,stair baseStep~128px
+18,Left,912,Left,True,861,-1,912,0,stair baseStep~128px
+19,Right,912,Left,False,3652,-1,912,0,stair baseStep~128px
+20,Left,784,Right,False,3235,-1,784,1,stair baseStep~64px
+21,Left,720,Left,True,1055,-1,720,1,stair baseStep~64px
+22,Left,720,Left,True,3499,-1,720,1,stair baseStep~64px
+23,Right,784,Right,True,791,-1,784,2,stair baseStep~32px
+24,Left,784,Left,True,2930,-1,784,2,stair baseStep~32px
+25,Right,816,Left,False,1374,-1,816,2,stair baseStep~32px
+26,Left,784,Left,True,1235,-1,784,3,stair baseStep~16px
+27,Right,784,Right,True,860,-1,784,3,stair baseStep~16px
+28,Right,800,Right,True,4569,-1,800,4,stair baseStep~8px
+29,Right,800,Right,True,3207,-1,800,4,stair baseStep~8px
+30,Left,808,Left,True,5457,-1,808,4,stair baseStep~8px
+31,Right,808,Right,True,1346,-1,808,4,stair baseStep~8px
+32,Left,816,Right,False,2166,-1,816,4,stair baseStep~8px
+33,Right,808,Left,False,1916,-1,808,5,stair baseStep~4px
+34,Right,804,Right,True,3443,-1,804,5,stair baseStep~4px
+35,Left,804,Left,True,6318,-1,804,5,stair baseStep~4px
+,,,,,,,,JND_px,808
