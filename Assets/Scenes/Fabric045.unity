@@ -497,7 +497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1767192434, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.36144
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 153982007679157697, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_RightControllerTransform
@@ -525,7 +525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.45
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1006,7 +1006,7 @@ PrefabInstance:
     - target: {fileID: 6889795300259344809, guid: f4be6aecc80ddf440834db8f6b35d601, type: 3}
       propertyPath: baseMaterial
       value: 
-      objectReference: {fileID: 2100000, guid: 6432cfa2bb87f6446bafb64d42e21b7d, type: 2}
+      objectReference: {fileID: 2100000, guid: c762ddd6e18548f45a9a4f54144992a3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1646,7 +1646,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6432cfa2bb87f6446bafb64d42e21b7d, type: 2}
+  - {fileID: 2100000, guid: c1352dc3e63bfd743a96e0bbece7b33a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2106,7 +2106,7 @@ PrefabInstance:
     - target: {fileID: 6889795300259344809, guid: f4be6aecc80ddf440834db8f6b35d601, type: 3}
       propertyPath: baseMaterial
       value: 
-      objectReference: {fileID: 2100000, guid: 6432cfa2bb87f6446bafb64d42e21b7d, type: 2}
+      objectReference: {fileID: 2100000, guid: c762ddd6e18548f45a9a4f54144992a3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
