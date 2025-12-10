@@ -6,18 +6,18 @@ import os
 from datetime import datetime
 import seaborn as sns
 import argparse
-
+1
 # Define the available datasets
 DATASETS = {
-    'bricks004': 'Bricks004_results',
-    'bricks101': 'Bricks101_results', 
-    'bricks094': 'Bricks094_results', 
-    'rocks022': 'Rocks022_results', 
-    'rock062': 'Rock062_results',
-    'rocks006': 'Rocks006_results',
-    'Fabric045': 'Fabric045_results',
-    'Fabric065': 'Fabric065_results',
-    'Fabric079': 'Fabric079_results'
+    'bricks004': 'Bricks004_results1',
+    'bricks101': 'Bricks101_results1', 
+    'bricks094': 'Bricks094_results1', 
+    'rocks022': 'Rocks022_results1', 
+    'rock062': 'Rock062_results1',
+    'rocks006': 'Rocks006_results1',
+    'Fabric015': 'Fabric015_results1',
+    'Fabric065': 'Fabric065_results1',
+    'Fabric079': 'Fabric079_results1'
 
 }
 
