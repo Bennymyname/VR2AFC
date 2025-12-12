@@ -1,0 +1,30 @@
+﻿trial,stdSide,cmpPx,response,correct,rtMs,lowPx,midPx,highPx,comment
+1,Right,4,Right,True,13072,-1,4,0,intro
+2,Left,8,Left,True,652,-1,8,0,intro
+3,Left,16,Left,True,430,-1,16,0,intro
+4,Left,16,Left,True,541,-1,16,0,stair baseStep~128px
+5,Left,16,Left,True,555,-1,16,0,stair baseStep~128px
+6,Left,144,Left,True,1013,-1,144,0,stair baseStep~128px
+7,Left,144,Left,True,2416,-1,144,0,stair baseStep~128px
+8,Left,272,Left,True,1055,-1,272,0,stair baseStep~128px
+9,Left,272,Left,True,1332,-1,272,0,stair baseStep~128px
+10,Left,400,Left,True,874,-1,400,0,stair baseStep~128px
+11,Left,400,Left,True,2138,-1,400,0,stair baseStep~128px
+12,Left,528,Left,True,1846,-1,528,0,stair baseStep~128px
+13,Right,528,Right,True,1638,-1,528,0,stair baseStep~128px
+14,Right,656,Right,True,2652,-1,656,0,stair baseStep~128px
+15,Left,656,Right,False,4347,-1,656,0,stair baseStep~128px
+16,Left,528,Right,False,1860,-1,528,1,stair baseStep~64px
+17,Right,464,Right,True,2791,-1,464,1,stair baseStep~64px
+18,Left,464,Left,True,2208,-1,464,1,stair baseStep~64px
+19,Left,528,Right,False,1291,-1,528,2,stair baseStep~32px
+20,Left,496,Left,True,1541,-1,496,3,stair baseStep~16px
+21,Left,496,Right,False,2666,-1,496,3,stair baseStep~16px
+22,Left,480,Left,True,1971,-1,480,3,stair baseStep~16px
+23,Left,480,Left,True,1277,-1,480,3,stair baseStep~16px
+24,Right,496,Left,False,1346,-1,496,4,stair baseStep~8px
+25,Right,488,Right,True,3486,-1,488,5,stair baseStep~4px
+26,Left,488,Right,False,2679,-1,488,5,stair baseStep~4px
+27,Right,484,Right,True,2111,-1,484,5,stair baseStep~4px
+28,Left,484,Left,True,1041,-1,484,5,stair baseStep~4px
+,,,,,,,,JND_px,488

@@ -3132,7 +3132,7 @@ MonoBehaviour:
   logDeviceLists: 1
   devicesLogInterval: 5
   logToCsv: 1
-  resultsFolderName: Rock062_results1
+  resultsFolderName: Rock062_results3
   writeInAssetsWhenInEditor: 1
   audioSource: {fileID: 0}
   useSynthPlaceholders: 0
@@ -3429,60 +3429,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10, y: 0.001, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1344712722
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1344712724}
-  - component: {fileID: 1344712723}
-  m_Layer: 0
-  m_Name: UI Input Gate
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1344712723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344712722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d1cf47f6f41a2e4a954a6926aed7481, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextButton: {fileID: 0}
-  autoFocusWhenShown: 1
-  gameplayActionsToGate:
-  - {fileID: -2439264783773714294, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
-  onGateEnabled:
-    m_PersistentCalls:
-      m_Calls: []
-  onGateDisabled:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!4 &1344712724
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344712722}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5569, y: 1.2244912, z: 1.5658078}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1501974246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3707,7 +3653,6 @@ SceneRoots:
   - {fileID: 950147753}
   - {fileID: 535371357}
   - {fileID: 480672173}
-  - {fileID: 1344712724}
   - {fileID: 606261014}
   - {fileID: 1507099115}
   - {fileID: 9473841}
